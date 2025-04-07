@@ -13,7 +13,11 @@ window.onload = function() {
     plugins: [
       SwaggerUIBundle.plugins.DownloadUrl
     ],
-    layout: "StandaloneLayout"
+    layout: "StandaloneLayout",
+      validatorUrl: "https://validator.swagger.io/validator",
+        queryConfigEnabled: true,
+      supportedSubmitMethods: ["get", "put", "post", "delete", "options", "head", "patch", "trace"],
+
   });
 
   //</editor-fold>
