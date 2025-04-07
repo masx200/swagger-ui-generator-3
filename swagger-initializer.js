@@ -16,7 +16,7 @@ window.onload = function() {
     layout: "StandaloneLayout",
       validatorUrl: "https://validator.swagger.io/validator",
         queryConfigEnabled: true,
-      supportedSubmitMethods: ["get", "put", "post", "delete", "options", "head", "patch", "trace"],
+      supportedSubmitMethods: ['get', 'put', 'post', 'delete', 'options', 'head', 'patch', 'trace', 'mkcol', 'propfind', 'proppatch', 'copy', 'move', 'lock', 'unlock', 'version-control', 'report', 'checkout', 'checkin', 'uncheckout', 'mkworkspace', 'update', 'label', 'merge', 'bind', 'unbind', 'orderpatch', 'acl'],
 
   });
 
