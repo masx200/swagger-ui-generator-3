@@ -1,7 +1,7 @@
-# Swagger-ui-Generator
+# Swagger-ui-Generator-3
 
 #### 介绍
-Swagger-ui-Generator
+Swagger-ui-Generator-3
 
 #### 软件架构
 软件架构说明
