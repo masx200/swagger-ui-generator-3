@@ -1119,7 +1119,20 @@
                 "type": "object",
                 "properties": {
                   "session": {
-                    "$ref": "#/components/schemas/session"
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "description": "名称"
+                      }
+                    },
+                    "x-apifox-orders": [
+                      "name"
+                    ],
+                    "required": [
+                      "name"
+                    ],
+                    "x-apifox-ignore-properties": []
                   },
                   "authorization": {
                     "$ref": "#/components/schemas/authorization"
@@ -1155,25 +1168,17 @@
               },
               "example": {
                 "session": {
-                  "name": "霜国栋",
-                  "args": [
-                    "esse eu",
-                    "fugiat sit Lorem est"
-                  ],
-                  "dir": "nostrud amet consequat",
-                  "cmd": "esse dolore Duis do sunt",
-                  "created_at": "2024-10-19 06:27:58",
-                  "updated_at": "2024-04-10"
+                  "name": "多宇"
                 },
                 "authorization": {
-                  "identifier": "9",
-                  "username": "睢勇",
-                  "token": "enim nostrud ad deserunt anim",
-                  "password": "g2AwDm9_yC_Zd35",
-                  "type": "nulla officia sed"
+                  "identifier": "48",
+                  "username": "逮奕辰",
+                  "token": "aliquip id",
+                  "password": "QncjyrTzhrQ05La",
+                  "type": "magna amet minim"
                 },
                 "destination": {
-                  "name": "越语桐"
+                  "name": "曲文昊"
                 }
               }
             }
@@ -1258,7 +1263,20 @@
                 "type": "object",
                 "properties": {
                   "session": {
-                    "$ref": "#/components/schemas/session"
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "description": "名称"
+                      }
+                    },
+                    "x-apifox-orders": [
+                      "name"
+                    ],
+                    "required": [
+                      "name"
+                    ],
+                    "x-apifox-ignore-properties": []
                   },
                   "authorization": {
                     "$ref": "#/components/schemas/authorization"
@@ -1293,25 +1311,17 @@
               },
               "example": {
                 "session": {
-                  "name": "仲孙雅鑫",
-                  "args": [
-                    "eiusmod Duis ad laboris",
-                    "officia"
-                  ],
-                  "dir": "nostrud irure ad laboris velit",
-                  "cmd": "culpa ex elit",
-                  "created_at": "2025-08-27 15:09:03",
-                  "updated_at": "2026-02-01"
+                  "name": "折浩"
                 },
                 "authorization": {
-                  "identifier": "80",
-                  "username": "麻国琴",
-                  "token": "aute eu",
-                  "password": "Fsi41VK0DrQ4W_H",
-                  "type": "culpa"
+                  "identifier": "31",
+                  "username": "函瑜",
+                  "token": "ut commodo non",
+                  "password": "PB9zkWXB67nqqeV",
+                  "type": "voluptate"
                 },
                 "destination": {
-                  "name": "改国英"
+                  "name": "申屠静怡"
                 }
               }
             }
